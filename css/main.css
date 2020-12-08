@@ -112,10 +112,12 @@ $breakpoints: (
   font-weight: 300;
   line-height: 37px;
   color: #08A6E4;
+  padding: 100px;
 }
 
 .header-nav ul {
   display: flex;
+  margin: 60px;
 }
 .header-nav ul a {
   text-decoration: none;
@@ -123,6 +125,13 @@ $breakpoints: (
   font-family: "Open Sans", sans-serif;
   font-size: 11px;
   font-weight: 700;
-  padding: 20px;
+  padding: 0 40px;
+  padding-bottom: 25px;
+  color: #A5A5A5;
+  border-bottom: 4px solid transparent;
+}
+.header-nav ul a:hover {
+  border-color: #08A6E4;
+  color: #000000;
 }
 /*# sourceMappingURL=main.css.map */

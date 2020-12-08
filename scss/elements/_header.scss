@@ -12,20 +12,28 @@
     font-weight: 300;
     line-height: 37px;
     color: $color-primary;
+    padding: 100px;
 }
 
 .header-nav{
-
     ul{
         display: flex;
+        margin: 60px;
         a{
             text-decoration: none;
             text-transform: uppercase;
             font-family: $font-open-sans;
             font-size: 11px;
             font-weight: 700;
-            padding: 20px;
+            padding: 0 40px;
+            padding-bottom: 25px;
+            color: $color-grey;
+            border-bottom: 4px solid transparent;
 
+        }
+        a:hover{
+            border-color: $color-primary;
+            color: $color-black;
         }
     }
 }
