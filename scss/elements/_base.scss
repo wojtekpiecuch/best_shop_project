@@ -1,0 +1,47 @@
+@mixin breakpoint-down {
+    @media (width-max: 1352px) {
+        @content;
+    }
+}
+
+.container{
+    width: 1352px;
+    margin: auto;
+    @include breakpoint-down {
+        width: 100vw;
+        padding: 15px;
+    }
+}
+/*
+.container{
+    width: 1352px;
+    margin: auto;
+    @media (width-max: 1352px){
+        width: 100vw;
+        padding: 0 15px;
+    }
+}
+
+$breakpoints: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+    );
+    
+    @mixin breakpoint-down($name) {
+        @media (max-width: map-get($breakpoints, $name)) {
+            @content;
+        }
+    }
+    .container{
+        width: 1352px;
+        margin: auto;
+        @include breakpoint-down(sm) {
+            width: 100vw;
+            padding: 0 15px;
+        }
+    }
+    
+    */
+    

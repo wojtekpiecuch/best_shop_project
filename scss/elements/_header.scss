@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 3px 6px $color-primary-shadow;
+    height: 70px;
+}
+.header-logo{
+    font-family: $font-raleway;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 37px;
+    color: $color-primary;
+}
+
+.header-nav{
+
+    ul{
+        display: flex;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: $font-open-sans;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 20px;
+
+        }
+    }
+}
