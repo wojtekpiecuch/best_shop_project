@@ -1,5 +1,5 @@
 @mixin breakpoint-down {
-    @media (width-max: 1352px) {
+    @media (max-width: 1352px) {
         @content;
     }
 }
@@ -9,7 +9,7 @@
     margin: auto;
     @include breakpoint-down {
         width: 100vw;
-        padding: 15px;
+        padding: 0 15px;
     }
 }
 /*

@@ -13,6 +13,7 @@
     line-height: 37px;
     color: $color-primary;
     padding: 100px;
+  
 }
 
 .header-nav{
@@ -36,4 +37,11 @@
             color: $color-black;
         }
     }
+}
+
+@include breakpoint-down {
+    .header-logo{
+        padding: 10px;
+    }
+    
 }

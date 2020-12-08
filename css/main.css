@@ -58,10 +58,10 @@ table {
   width: 1352px;
   margin: auto;
 }
-@media (width-max: 1352px) {
+@media (max-width: 1352px) {
   .container {
     width: 100vw;
-    padding: 15px;
+    padding: 0 15px;
   }
 }
 
@@ -133,5 +133,11 @@ $breakpoints: (
 .header-nav ul a:hover {
   border-color: #08A6E4;
   color: #000000;
+}
+
+@media (max-width: 1352px) {
+  .header-logo {
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
