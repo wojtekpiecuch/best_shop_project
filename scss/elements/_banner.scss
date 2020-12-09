@@ -1,0 +1,45 @@
+.banner{
+    text-align: center;
+
+    .banner-header{
+        font-family: $font-raleway;
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 57px;
+        padding: 100px 0px 3\0px 0px;
+
+    }
+
+    .banner-paragraf{
+        font-family: $font-open-sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px; 
+        padding: 30px 0px; 
+    }
+
+    .banner-button{
+        width: 400px;
+        height: 67px;
+        border-radius: 50px;
+        border: transparent;
+        background-color: $color-primary;
+
+        .banner-link-text{
+            text-decoration: none;
+            color: $color-white;
+            font-family: $font-open-sans;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 27px;
+        }
+    }
+
+   
+
+    .banner-img img{
+        width: 100%;
+        
+
+    }
+}
